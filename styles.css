@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: url('/laptop.jpg');
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+#main-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#main-content >*{
+    margin-top: 10px;
+}
+
+#guess >*{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+input:focus { outline: none; }

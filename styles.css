@@ -5,7 +5,7 @@
 }
 body{
     text-align: center;
-    background-image: url('/laptop.jpg');
+    background-image: url("laptop.jpg");
     color: white;
     font-family: Helvetica, sans-serif;
 }

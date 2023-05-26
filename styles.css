@@ -7,11 +7,15 @@
 body{
     min-height: 100vh;
     text-align: center;
+<<<<<<< HEAD
     background-image: url('background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+=======
+    background-image: url("laptop.jpg");
+>>>>>>> c7d190fa2f42cb466f6ab09dbd397a0445f60eb5
     color: white;
     font-family: Helvetica, sans-serif;
     display: flex;
